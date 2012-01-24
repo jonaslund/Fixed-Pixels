@@ -1,0 +1,13 @@
+{
+  "name": "Fixed Pixels",
+  "version": "1",
+  "description": "Fixes Pixels",
+  "icons": { "128": "icon_128.png" },
+  "permissions": ["history"],
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "js": ["jquery.js", "script.js"]
+    }
+  ]
+}
